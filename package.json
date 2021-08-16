@@ -5,17 +5,17 @@
   "repository": "git@gitea.h.shynome.com:eb8/dton.git",
   "author": "shynome <shynome@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "gen-iconfont": "iconfont-h5"
+  },
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.36",
-    "@fortawesome/free-brands-svg-icons": "^5.15.4",
-    "@fortawesome/free-solid-svg-icons": "^5.15.4",
-    "@fortawesome/react-fontawesome": "^0.1.15",
     "next": "^11.1.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "unstated-next": "^1.1.0"
   },
   "devDependencies": {
+    "@shynome/react-iconfont-cli": "^2.1.1",
     "@types/node": "^16.6.1",
     "@types/react": "^17.0.17",
     "autoprefixer": "^10.3.1",
