@@ -3,6 +3,6 @@
     "use_typescript": true,
     "save_dir": "./components/iconfont",
     "trim_icon_prefix": "icon",
-    "unit": "px",
-    "default_icon_size": 18
+    "unit": "rem",
+    "default_icon_size": 1
 }
